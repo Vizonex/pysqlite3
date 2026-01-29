@@ -10,7 +10,7 @@ from setuptools import setup
 sources = [os.path.join('src', source)
            for source in ["module.c", "connection.c", "cursor.c", "cache.c",
                           "microprotocols.c", "prepare_protocol.c",
-                          "statement.c", "util.c", "row.c", "blob.c"]]
+                          "statement.c", "util.c", "row.c", "blob.c", "capi.c"]]
 include_dirs = []
 libraries = []
 
